@@ -60,6 +60,6 @@ By analyzing headers with the **MHA tool** (such as Microsoft’s [Message Heade
 
 ---
 
-## Outcome
+## Result
 By following these steps, you can **analyze an email’s true origin and detect spoofing attempts** using the **MHA tool**.  
 This helps in identifying phishing attacks, preventing fraud, and strengthening cybersecurity awareness.
