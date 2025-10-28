@@ -9,22 +9,13 @@ Autopsy is an open-source digital forensics platform used for analyzing and extr
 - Open Autopsy: Launch the application after installation.
 - Create a New Case:
      <br>
-  -  *Click on New Case.*
-    
-    <br>
-  ![WhatsApp Image 2025-10-28 at 09 40 11_71715664](https://github.com/user-attachments/assets/425815aa-71e5-4827-83d2-d37568b6bfde)
-
+  -
      <br>
      
   - Enter the case name and location where the case data will be stored.
   - Fill in the details like the case number, examiner's name, etc., and click Next.
     
-       <br>
-       
- ![WhatsApp Image 2025-10-28 at 09 40 03_7b4ec3dd](https://github.com/user-attachments/assets/5028e3af-8e36-4ca9-aa4f-583e3bd2a9ae)
-
-
-     <br>
+    
 
 ### 3. Adding a Data Source
 - Choose the Type of Data Source
@@ -33,8 +24,7 @@ Autopsy is an open-source digital forensics platform used for analyzing and extr
 - Start Analysis
  <br>
 
-  ![WhatsApp Image 2025-10-28 at 09 40 03_7b4ec3dd](https://github.com/user-attachments/assets/0b50b111-16dd-4b61-bddc-42e9364f895b)
-
+ 
 
 <br>
  <br>
