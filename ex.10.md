@@ -47,32 +47,35 @@ Step-by-step instructions on performing static analysis using Ghidra:
 * Instructions for setting up a virtualized and isolated analysis environment.
 * Guide on installing Ghidra and verifying the Java dependency.
 
-![images/exp1-disk-step1.png](https://github.com/saisindhujasamineni-Esc/Digital-Forensics-Lab-/blob/main/Screenshots/10.18.png?raw=true)
+![images/exp1-disk-step1.png](https://github.com/baddiputi/Digital-Forensic-Lab-Exercises/blob/97de06473d645e6627f8ffd9004efdb5c19742a8/images/10.18.png)
 
 #### B. Initial Analysis
 * **Loading the Binary:** How to launch Ghidra, create a new project, and import the sample binary.
 * **Auto-Analysis:** How to run the initial Ghidra auto-analysis and select appropriate analyzers.
 * **Identifying Entry Points:** Locating the main function or the binary's execution starting point.
-![images/exp1-disk-step1.png](https://github.com/saisindhujasamineni-Esc/Digital-Forensics-Lab-/blob/main/Screenshots/10.15.png?raw=true)
+![images/exp1-disk-step1.png](https://github.com/baddiputi/Digital-Forensic-Lab-Exercises/blob/97de06473d645e6627f8ffd9004efdb5c19742a8/images/10.15.png)
 
 
-![images/exp1-disk-step1.png](https://github.com/saisindhujasamineni-Esc/Digital-Forensics-Lab-/blob/main/Screenshots/10.14.png?raw=true)
+![images/exp1-disk-step1.png](https://github.com/baddiputi/Digital-Forensic-Lab-Exercises/blob/97de06473d645e6627f8ffd9004efdb5c19742a8/images/10.14.png)
 
 #### C. Function Analysis
 * **Decompilation:** Using Ghidra's Decompiler window to translate assembly into high-level C-like code.
 * **Function Identification:** Methods for renaming and analyzing critical functions to understand their purpose.
 * **Cross-Referencing (XREF):** Utilizing Ghidra's cross-referencing features to trace where a function is called or where a variable is used.
 
-![images/exp1-disk-step1.png](https://github.com/saisindhujasamineni-Esc/Digital-Forensics-Lab-/blob/main/Screenshots/10.11.png?raw=true)
+<img width="1154" height="777" alt="{A0279A2B-CA36-45D7-AA24-713F5576C9BF}" src="https://github.com/user-attachments/assets/22bf5df7-2e4f-47e2-931e-e26bffd2a2c9" />
 
-![images/exp1-disk-step1.png](https://github.com/saisindhujasamineni-Esc/Digital-Forensics-Lab-/blob/main/Screenshots/10.10.png?raw=true)
+
+<img width="1158" height="765" alt="{17565FA5-9BD4-4ACC-929B-12190AF78DBA}" src="https://github.com/user-attachments/assets/8319c0a3-90ee-435f-a95c-689251f34273" />
+
 
 #### D. String and Import Analysis
 * **Locating Strings:** Using the **Defined Strings** window to find meaningful static strings (e.g., URLs, file paths, registry keys) that indicate malicious behavior.
 * **Interpreting Imports:** Analyzing the **Import Table** to identify relevant imported functions (e.g., `CreateFileA`, `URLDownloadToFile`, `RegSetValueEx`) that suggest malware functionality.
-![images/exp1-disk-step1.png](https://github.com/saisindhujasamineni-Esc/Digital-Forensics-Lab-/blob/main/Screenshots/10.9.png?raw=true)
+<img width="718" height="331" alt="{9F337C08-3CF6-4EFA-B3AC-80D37D8B5F11}" src="https://github.com/user-attachments/assets/49f153d0-0ce2-4cab-88d6-9549839ada3a" />
 
-![images/exp1-disk-step1.png](https://github.com/saisindhujasamineni-Esc/Digital-Forensics-Lab-/blob/main/Screenshots/10.7.png?raw=true)
+
+![images/exp1-disk-step1.png](https://github.com/baddiputi/Digital-Forensic-Lab-Exercises/blob/97de06473d645e6627f8ffd9004efdb5c19742a8/images/10.7.png)
 
 #### E. Advanced Techniques (Optional)
 * Introduction to using Ghidra's **Control Flow Graphs (CFGs)** for visualizing program execution flow.
@@ -97,12 +100,14 @@ Scripts using Ghidra's API to automate repetitive analysis tasks:
 * **Benign Binary or Hex Dump:** Provide safe files for users to practice the disassembly steps.
     * *Example:* `benign_sample1.bin` (A simple C program that mimics system calls or file writing but contains no harmful payload).
 
-![images/exp1-disk-step1.png](https://github.com/saisindhujasamineni-Esc/Digital-Forensics-Lab-/blob/main/Screenshots/10.4.png?raw=true)
-
-![images/exp1-disk-step1.png](https://github.com/saisindhujasamineni-Esc/Digital-Forensics-Lab-/blob/main/Screenshots/10.3.png?raw=true)
+<img width="1013" height="348" alt="{49400CF8-82D1-411B-9A96-1591D8E5728C}" src="https://github.com/user-attachments/assets/fa1266c1-7573-41b3-b074-f0bfdf6d16ff" />
 
 
-![images/exp1-disk-step1.png](https://github.com/saisindhujasamineni-Esc/Digital-Forensics-Lab-/blob/main/Screenshots/10.2.png?raw=true)
+![images/exp1-disk-step1.png](https://github.com/baddiputi/Digital-Forensic-Lab-Exercises/blob/97de06473d645e6627f8ffd9004efdb5c19742a8/images/10.3.png)
+
+
+<img width="1149" height="568" alt="{86A2B28E-5827-4549-AF5A-AB3F4FF3DF51}" src="https://github.com/user-attachments/assets/2d81ca66-bc00-47c1-b983-18a291689a22" />
+
 ---
 
 ### 5. Report Template
@@ -116,4 +121,4 @@ A template to structure and document the findings of the Ghidra analysis:
 
 **Result:**
 
-The experiment on malware analysis using Ghidra was successfully performed. The malware binary was disassembled, decompiled, and analyzed to identify its functions, strings, and behavioral patterns. This helped in understanding the internal logic, persistence mechanisms, and potential malicious activities of the code.
+The experiment on malware analysis using Ghidra was successfully performed. The malware binary was disassembled, decompiled, and analyzed to identify its functions, strings, and behavioral patterns. This helped in understanding the internal logic, persistence mechanisms, and potential malicious activities of the code.e malware binary was disassembled, decompiled, and analyzed to identify its functions, strings, and behavioral patterns. This helped in understanding the internal logic, persistence mechanisms, and potential malicious activities of the code.
