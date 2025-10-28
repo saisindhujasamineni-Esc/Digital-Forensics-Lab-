@@ -24,9 +24,10 @@
     * Go to **Settings > About Phone** and tap **Build Number seven times** to enable Developer Options.
     * Go to **Settings > Developer Options** and enable **USB Debugging**.
 
-![images/exp1-disk-step1.png](https://github.com/saisindhujasamineni-Esc/Digital-Forensics-Lab-/blob/main/Screenshots/7.1.png?raw=true)
+![WhatsApp Image 2025-10-28 at 00 40 45_02234791](https://github.com/user-attachments/assets/2727020c-3fe7-4b57-a201-104e0b9a59cb)
 
-![images/exp1-disk-step1.png](https://github.com/saisindhujasamineni-Esc/Digital-Forensics-Lab-/blob/main/Screenshots/7.3.png?raw=true)
+![WhatsApp Image 2025-10-28 at 00 41 00_aaf30c71](https://github.com/user-attachments/assets/1f2aaebc-7ea5-412d-8701-cb2e3b1e5076)
+
 ---
 
 ### Step 2: Connect the Android Device to Your Computer
@@ -40,7 +41,9 @@
         ```
     * **Verification:** The device should be listed, confirming that the ADB connection is ready.
    
-![images/exp1-disk-step1.png](https://github.com/saisindhujasamineni-Esc/Digital-Forensics-Lab-/blob/main/Screenshots/7.13.jpeg?raw=true)
+![WhatsApp Image 2025-10-28 at 10 22 28_ef01773f](https://github.com/user-attachments/assets/bd008770-8d57-49d1-b6df-5b6f07b7f6b1)
+
+
 
 ---
 
@@ -52,7 +55,8 @@
         ```bash
         adb install aflogical.apk
         ```
-![images/exp1-disk-step1.png](https://github.com/saisindhujasamineni-Esc/Digital-Forensics-Lab-/blob/main/Screenshots/7.7.png?raw=true)
+![WhatsApp Image 2025-10-28 at 00 41 33_c3b9e973](https://github.com/user-attachments/assets/676b28b1-38d5-4414-9ca1-a8e55cdbaf3f)
+
 
 2.  **Launch the AFLogical OSE App on the Device:**
     * On the Android device, open the newly installed AFLogical app.
@@ -62,9 +66,9 @@
     * Select the desired data types (e.g., contacts, SMS, MMS, call logs) from the app's options.
     * The app will start the extraction process, storing the data in **.csv files** on the device’s storage, typically in a directory named `aflogical`.
 
-![images/exp1-disk-step1.png](https://github.com/saisindhujasamineni-Esc/Digital-Forensics-Lab-/blob/main/Screenshots/7.12.jpeg?raw=true)
+![images/exp1-disk-step1.png](https://github.com/baddiputi/Digital-Forensic-Lab-Exercises/blob/de2d7c56c138c87d4745d2dbaf512dc4e2beaedc/images/7.12.jpeg)
 
-![images/exp1-disk-step1.png](https://github.com/saisindhujasamineni-Esc/Digital-Forensics-Lab-/blob/main/Screenshots/7.11.jpeg?raw=true)
+
 
 ---
 
@@ -75,7 +79,9 @@
         ```bash
         adb pull /sdcard/aflogical /path/to/destination
         ```
-![images/exp1-disk-step1.png](https://github.com/saisindhujasamineni-Esc/Digital-Forensics-Lab-/blob/main/Screenshots/7.8.png?raw=true)
+![WhatsApp Image 2025-10-28 at 10 22 37_5f269ec8](https://github.com/user-attachments/assets/da60edc8-2d85-4e36-91a1-2c7a3238a95a)
+
+
 
     * *Note: Replace `/path/to/destination` with the desired save location on your computer.*
 2.  **Verify the Data:**
@@ -90,7 +96,7 @@
 2.  **Review and Document:**
     * Carefully review the data for any relevant evidence or information.
     * Document all findings and prepare a comprehensive report.
-![images/exp1-disk-step1.png](https://github.com/saisindhujasamineni-Esc/Digital-Forensics-Lab-/blob/main/Screenshots/7.9.png?raw=true)
+![WhatsApp Image 2025-10-28 at 00 40 19_7478e363](https://github.com/user-attachments/assets/3b67b478-ec26-4981-beed-5830da1e6cac)
 ---
 
 ### Step 6: Clean Up
